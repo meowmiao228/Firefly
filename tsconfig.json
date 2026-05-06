@@ -6,7 +6,8 @@
     "moduleResolution": "bundler",
     "jsx": "react-jsx",
     "jsxImportSource": "react",
-    "baseUrl": ".",
+    "ignoreDeprecations": "6.0", //解除baseurl报错
+    "baseUrl": "",
     "strictNullChecks": true,
     "allowJs": false,
     "declaration": true,
