@@ -257,6 +257,7 @@ export default defineConfig({
 			alias: {
 				"@rehype-callouts-theme": `rehype-callouts/theme/${siteConfig.rehypeCallouts.theme}`,
 				'@i18n': './src/i18n',
+				'@utils': './src/utils',
 			},
 		},
 		build: {
