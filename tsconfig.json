@@ -27,7 +27,8 @@
         "src/constants/*"
       ],
       "@utils/*": [
-        "src/utils/*"
+        "src/utils/*",
+        "./src/utils/*"
       ],
       "@i18n/*": [
         "src/i18n/*",
