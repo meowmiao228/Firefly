@@ -256,8 +256,8 @@ export default defineConfig({
 		resolve: {
 			alias: {
 				"@rehype-callouts-theme": `rehype-callouts/theme/${siteConfig.rehypeCallouts.theme}`,
-				'@i18n': './src/i18n',
-				'@utils': './src/utils',
+				'@utils': path.resolve(__dirname, './src/utils'),
+        		'@i18n': path.resolve(__dirname, './src/i18n'),
 				'@config': './src/config',
 				'@layouts': './src/layouts',
 				'@': './src',
