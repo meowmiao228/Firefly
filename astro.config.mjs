@@ -258,6 +258,10 @@ export default defineConfig({
 				"@rehype-callouts-theme": `rehype-callouts/theme/${siteConfig.rehypeCallouts.theme}`,
 				'@i18n': './src/i18n',
 				'@utils': './src/utils',
+				'@config': './src/config',
+				'@layouts': './src/layouts',
+				'@': './src',
+				// 其他别名...
 			},
 		},
 		build: {
