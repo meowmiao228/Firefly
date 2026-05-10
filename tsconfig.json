@@ -35,7 +35,8 @@
         "./src/i18n/*"
       ],
       "@layouts/*": [
-        "src/layouts/*"
+        "src/layouts/*",
+        "./src/layouts/*"
       ],
       "@config/*": [
         "src/config/*",
