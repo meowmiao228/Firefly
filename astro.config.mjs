@@ -271,7 +271,7 @@ export default defineConfig({
 				'@styles': path.resolve(__dirname, './src/styles'),
 				'@hooks': path.resolve(__dirname, './src/hooks'),
 				'@types': path.resolve(__dirname, './src/types'),
-				'@': path.resolve(__dirname, './src'),
+				'@': './src',
 				// 其他别名...
 			},
 		},
