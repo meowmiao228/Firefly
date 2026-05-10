@@ -1,3 +1,8 @@
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
 import sitemap from "@astrojs/sitemap";
 import svelte from "@astrojs/svelte";
 import tailwindcss from "@tailwindcss/vite";
@@ -258,9 +263,9 @@ export default defineConfig({
 				"@rehype-callouts-theme": `rehype-callouts/theme/${siteConfig.rehypeCallouts.theme}`,
 				'@utils': path.resolve(__dirname, './src/utils'),
         		'@i18n': path.resolve(__dirname, './src/i18n'),
-				'@config': './src/config',
-				'@layouts': './src/layouts',
-				'@': './src',
+				'@config': path.resolve(__dirname, './src/config'),
+				'@layouts': path.resolve(__dirname, './src/layouts'),
+				'@': path.resolve(__dirname, './src'),
 				// 其他别名...
 			},
 		},
