@@ -265,6 +265,12 @@ export default defineConfig({
         		'@i18n': path.resolve(__dirname, './src/i18n'),
 				'@config': path.resolve(__dirname, './src/config'),
 				'@layouts': path.resolve(__dirname, './src/layouts'),
+				'@components': path.resolve(__dirname, './src/components'),
+				'@plugins': path.resolve(__dirname, './src/plugins'),
+				'@assets': path.resolve(__dirname, './src/assets'),
+				'@styles': path.resolve(__dirname, './src/styles'),
+				'@hooks': path.resolve(__dirname, './src/hooks'),
+				'@types': path.resolve(__dirname, './src/types'),
 				'@': path.resolve(__dirname, './src'),
 				// 其他别名...
 			},
