@@ -37,6 +37,10 @@
       "@layouts/*": [
         "src/layouts/*"
       ],
+      "@config/*": [
+        "src/config/*",
+        "./src/config/*"
+      ],
       "@/*": [
         "src/*"
       ]
